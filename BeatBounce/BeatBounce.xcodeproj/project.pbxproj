@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A55F2DF261B553C005A2E36 /* BeatBounceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A55F2DE261B553C005A2E36 /* BeatBounceApp.swift */; };
+		9A55F2E1261B553C005A2E36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A55F2E0261B553C005A2E36 /* ContentView.swift */; };
+		9A55F2E3261B553E005A2E36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A55F2E2261B553E005A2E36 /* Assets.xcassets */; };
+		9A55F2E6261B553E005A2E36 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A55F2E5261B553E005A2E36 /* Preview Assets.xcassets */; };
+		9A55F2F0261B5572005A2E36 /* BeatBounceScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A55F2EF261B5572005A2E36 /* BeatBounceScene.swift */; };
+		9A55F2F3261B55B5005A2E36 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A55F2F2261B55B5005A2E36 /* Player.swift */; };
+		9A55F2F7261B5602005A2E36 /* AudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9A55F2F6261B5602005A2E36 /* AudioKit */; };
+		9A55F2FA261B5840005A2E36 /* Samples in Resources */ = {isa = PBXBuildFile; fileRef = 9A55F2F9261B5840005A2E36 /* Samples */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9A55F2DB261B553C005A2E36 /* BeatBounce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeatBounce.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A55F2DE261B553C005A2E36 /* BeatBounceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatBounceApp.swift; sourceTree = "<group>"; };
+		9A55F2E0261B553C005A2E36 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9A55F2E2261B553E005A2E36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A55F2E5261B553E005A2E36 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9A55F2E7261B553E005A2E36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A55F2EF261B5572005A2E36 /* BeatBounceScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatBounceScene.swift; sourceTree = "<group>"; };
+		9A55F2F2261B55B5005A2E36 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		9A55F2F9261B5840005A2E36 /* Samples */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Samples; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A55F2D8261B553C005A2E36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A55F2F7261B5602005A2E36 /* AudioKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A55F2D2261B553C005A2E36 = {
+			isa = PBXGroup;
+			children = (
+				9A55F2DD261B553C005A2E36 /* BeatBounce */,
+				9A55F2DC261B553C005A2E36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A55F2DC261B553C005A2E36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A55F2DB261B553C005A2E36 /* BeatBounce.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A55F2DD261B553C005A2E36 /* BeatBounce */ = {
+			isa = PBXGroup;
+			children = (
+				9A55F2F9261B5840005A2E36 /* Samples */,
+				9A55F2DE261B553C005A2E36 /* BeatBounceApp.swift */,
+				9A55F2E0261B553C005A2E36 /* ContentView.swift */,
+				9A55F2E2261B553E005A2E36 /* Assets.xcassets */,
+				9A55F2E7261B553E005A2E36 /* Info.plist */,
+				9A55F2E4261B553E005A2E36 /* Preview Content */,
+				9A55F2EF261B5572005A2E36 /* BeatBounceScene.swift */,
+				9A55F2F2261B55B5005A2E36 /* Player.swift */,
+			);
+			path = BeatBounce;
+			sourceTree = "<group>";
+		};
+		9A55F2E4261B553E005A2E36 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9A55F2E5261B553E005A2E36 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A55F2DA261B553C005A2E36 /* BeatBounce */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A55F2EA261B553E005A2E36 /* Build configuration list for PBXNativeTarget "BeatBounce" */;
+			buildPhases = (
+				9A55F2D7261B553C005A2E36 /* Sources */,
+				9A55F2D8261B553C005A2E36 /* Frameworks */,
+				9A55F2D9261B553C005A2E36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeatBounce;
+			packageProductDependencies = (
+				9A55F2F6261B5602005A2E36 /* AudioKit */,
+			);
+			productName = BeatBounce;
+			productReference = 9A55F2DB261B553C005A2E36 /* BeatBounce.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A55F2D3261B553C005A2E36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					9A55F2DA261B553C005A2E36 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 9A55F2D6261B553C005A2E36 /* Build configuration list for PBXProject "BeatBounce" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A55F2D2261B553C005A2E36;
+			packageReferences = (
+				9A55F2F5261B5602005A2E36 /* XCRemoteSwiftPackageReference "AudioKit" */,
+			);
+			productRefGroup = 9A55F2DC261B553C005A2E36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A55F2DA261B553C005A2E36 /* BeatBounce */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A55F2D9261B553C005A2E36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A55F2FA261B5840005A2E36 /* Samples in Resources */,
+				9A55F2E6261B553E005A2E36 /* Preview Assets.xcassets in Resources */,
+				9A55F2E3261B553E005A2E36 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A55F2D7261B553C005A2E36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A55F2F3261B55B5005A2E36 /* Player.swift in Sources */,
+				9A55F2E1261B553C005A2E36 /* ContentView.swift in Sources */,
+				9A55F2DF261B553C005A2E36 /* BeatBounceApp.swift in Sources */,
+				9A55F2F0261B5572005A2E36 /* BeatBounceScene.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9A55F2E8261B553E005A2E36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9A55F2E9261B553E005A2E36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A55F2EB261B553E005A2E36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BeatBounce/Preview Content\"";
+				DEVELOPMENT_TEAM = 7643GBP26E;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BeatBounce/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.berklee.avantroyer.BeatBounce;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A55F2EC261B553E005A2E36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BeatBounce/Preview Content\"";
+				DEVELOPMENT_TEAM = 7643GBP26E;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BeatBounce/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.berklee.avantroyer.BeatBounce;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A55F2D6261B553C005A2E36 /* Build configuration list for PBXProject "BeatBounce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A55F2E8261B553E005A2E36 /* Debug */,
+				9A55F2E9261B553E005A2E36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A55F2EA261B553E005A2E36 /* Build configuration list for PBXNativeTarget "BeatBounce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A55F2EB261B553E005A2E36 /* Debug */,
+				9A55F2EC261B553E005A2E36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9A55F2F5261B5602005A2E36 /* XCRemoteSwiftPackageReference "AudioKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/AudioKit";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9A55F2F6261B5602005A2E36 /* AudioKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9A55F2F5261B5602005A2E36 /* XCRemoteSwiftPackageReference "AudioKit" */;
+			productName = AudioKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9A55F2D3261B553C005A2E36 /* Project object */;
+}
